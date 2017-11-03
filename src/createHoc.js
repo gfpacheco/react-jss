@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import defaultTheming from 'theming'
+import defaultTheming from '@gfpacheco/theming'
 import jss, {getDynamicStyles, SheetsManager} from './jss'
 import compose from './compose'
 import getDisplayName from './getDisplayName'

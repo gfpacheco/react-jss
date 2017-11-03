@@ -1,4 +1,4 @@
-export {ThemeProvider, withTheme, createTheming} from 'theming'
+export {ThemeProvider, withTheme, createTheming} from '@gfpacheco/theming'
 export {default as JssProvider} from './JssProvider'
 export {
   default as jss,

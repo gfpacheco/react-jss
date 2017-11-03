@@ -6,7 +6,7 @@ import {render, unmountComponentAtNode, findDOMNode} from 'react-dom'
 import {renderToString} from 'react-dom/server'
 import {stripIndent} from 'common-tags'
 import preset from 'jss-preset-default'
-import {createTheming} from 'theming'
+import {createTheming} from '@gfpacheco/theming'
 import getDisplayName from './getDisplayName'
 
 let node
