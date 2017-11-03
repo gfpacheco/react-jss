@@ -1,5 +1,5 @@
 {
-  "name": "react-jss",
+  "name": "@gfpacheco/react-jss",
   "version": "7.2.0",
   "description": "Integration of JSS for react.",
   "main": "lib/index.js",
@@ -28,15 +28,7 @@
     "type": "git",
     "url": "https://github.com/cssinjs/react-jss.git"
   },
-  "keywords": [
-    "react",
-    "style",
-    "css",
-    "stylesheet",
-    "jss",
-    "hoc",
-    "decorator"
-  ],
+  "keywords": ["react", "style", "css", "stylesheet", "jss", "hoc", "decorator"],
   "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
   "license": "MIT",
   "bugs": {
@@ -91,10 +83,7 @@
     "theming": "^1.1.0"
   },
   "lint-staged": {
-    "src/*.js": [
-      "eslint --fix",
-      "git add"
-    ]
+    "src/*.js": ["eslint --fix", "git add"]
   },
   "pre-commit": "lint:staged"
 }
